@@ -1,6 +1,6 @@
-import { useState } from 'react'
-import './App.css'
-import Dashboard from './pages/dashboard/Dashboard';
+import { useState } from "react";
+import "./App.css";
+import Dashboard from "./pages/dashboard/Dashboard";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import Support from "./pages/Support/Support";
@@ -20,13 +20,13 @@ const router = createBrowserRouter([
   },
 ]);
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <>
-    <RouterProvider router={router} />
-  </>
-  )
+      <RouterProvider router={router} />
+    </>
+  );
 }
 
-export default App
+export default App;
