@@ -1,8 +1,8 @@
 import { Box, Container, Flex, useDisclosure } from "@chakra-ui/react";
 import React from "react";
-import Sidenav from "./Sidenav";
-import TopNav from "./TopNav";
-import SideDrawer from "./SideDrawer";
+import Sidenav from "./Sidenav.jsx";
+import TopNav from "./TopNav.jsx";
+import SideDrawer from "./SideDrawer.jsx";
 
 const DashboardLayout = ({ title, children }) => {
   const { isOpen, onClose, onOpen } = useDisclosure();

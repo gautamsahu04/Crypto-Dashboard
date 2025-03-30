@@ -9,10 +9,10 @@ import {
   InputLeftElement,
   Tag,
 } from "@chakra-ui/react";
-import DashboardLayout from "../../components/DashboardLayout";
+import DashboardLayout from "../../components/DashboardLayout.jsx";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
-import TransactionTable from "./components/TransactionTable";
+import TransactionTable from "./components/TransactionTable.jsx";
 import { BsSearch } from "react-icons/bs";
 const TransactionPage = () => {
   const tabs = [

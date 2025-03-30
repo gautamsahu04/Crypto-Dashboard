@@ -5,7 +5,7 @@ import {
   DrawerContent,
   DrawerCloseButton,
 } from "@chakra-ui/react";
-import Sidenav from "./Sidenav";
+import Sidenav from "./Sidenav.jsx";
 const SideDrawer = ({ isOpen, onClose }) => {
   return (
     <>

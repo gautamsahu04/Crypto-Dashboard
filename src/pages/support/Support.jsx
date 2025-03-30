@@ -1,9 +1,9 @@
 import { IoMdMail } from "react-icons/io";
-import DashboardLayout from "../../components/DashboardLayout";
-import ContactCard from "./components/ContactCard";
-import SupportCard from "./components/SupportCard";
+import DashboardLayout from "../../components/DashboardLayout.jsx";
+import ContactCard from "./components/ContactCard.jsx";
+import SupportCard from "./components/SupportCard.jsx";
 import { AiTwotoneMessage } from "react-icons/ai";
-import InfoCard from "../dashboard/components/InfoCard";
+import InfoCard from "../dashboard/components/InfoCard.jsx";
 import { Stack } from "@chakra-ui/react";
 const Support = () => {
   return (

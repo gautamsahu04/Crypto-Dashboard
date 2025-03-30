@@ -12,7 +12,7 @@ import {
   Tabs,
   Text,
 } from "@chakra-ui/react";
-import { CustomCard } from "../../../chakra/CustomCard";
+import { CustomCard } from "../../../chakra/CustomCard.jsx";
 import { BsArrowUpRight } from "react-icons/bs";
 import { AiFillPlusCircle, AiOutlineMinusCircle } from "react-icons/ai";
 

@@ -1,9 +1,9 @@
 import React from "react";
-import DashboardLayout from "../../components/Dashboardlayout";
-import PortfolioSection from "./components/PortfolioSection";
-import PriceSection from "./components/PriceSection";
-import Transactions from "./components/Transactions";
-import InfoCard from "./components/InfoCard";
+import DashboardLayout from "../../components/DashboardLayout.jsx";
+import PortfolioSection from "./components/PortfolioSection.jsx";
+import PriceSection from "./components/PriceSection.jsx";
+import Transactions from "./components/Transactions.jsx";
+import InfoCard from "./components/InfoCard.jsx";
 import { Grid, GridItem } from "@chakra-ui/react";
 
 
