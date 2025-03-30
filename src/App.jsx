@@ -3,7 +3,7 @@ import "./App.css";
 import Dashboard from "./pages/dashboard/Dashboard";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Support from "./pages/Support/Support";
+import Support from "./pages/support/Support.jsx";
 import TransactionPage from "./pages/Transaction/Transaction";
 const router = createBrowserRouter([
   {
